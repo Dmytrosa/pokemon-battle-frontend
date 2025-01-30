@@ -1,0 +1,28 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s, border-color 0.2s;
+  }
+  .image {
+    width: 96px;
+    height: 96px;
+    object-fit: contain;
+    margin-bottom: 8px;
+  }
+  .name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 4px 0;
+  }
+  .type {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  .stats {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  

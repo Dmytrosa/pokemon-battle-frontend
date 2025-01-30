@@ -1,0 +1,107 @@
+.container {
+    padding: 16px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+  
+  .card {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #fefefe;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+  }
+  
+  .fieldRow {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  
+  .label {
+    width: 150px;
+    font-weight: bold;
+  }
+  
+  .readonlyValue {
+    flex: 1;
+    padding: 8px;
+    background: #f3f3f3;
+    border-radius: 4px;
+  }
+  
+  .input {
+    flex: 1;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .select {
+    flex: 1;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .buttonRow {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+  }
+  
+  .editBtn {
+    padding: 8px 16px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .saveBtn {
+    padding: 8px 16px;
+    background: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .saveBtnDisabled {
+    padding: 8px 16px;
+    background: #aaa;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: default;
+  }
+  
+  .cancelBtn {
+    padding: 8px 16px;
+    background: #6c757d;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .loading {
+    padding: 16px;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 16px;
+  }
+  
+  .successMsg {
+    color: green;
+    margin-bottom: 8px;
+  }
+  

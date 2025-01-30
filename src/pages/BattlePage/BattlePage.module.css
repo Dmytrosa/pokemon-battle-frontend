@@ -1,0 +1,23 @@
+.container {
+    padding: 20px;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #ecf0f1 0%, #b8c6db 100%);
+    font-family: Arial, sans-serif;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 16px;
+  }
+  
+  .errorBlock {
+    color: red;
+    margin-bottom: 16px;
+  }
+  
+  .loading {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  

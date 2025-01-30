@@ -1,0 +1,46 @@
+.container {
+    padding: 16px;
+    min-height: 100vh;
+  }
+  .title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #213547;
+  }
+  .loading {
+    padding: 16px;
+  }
+  .error {
+    color: red;
+    margin: 16px 0;
+  }
+  .info {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 40px;
+    height: 40px;
+    
+    border: 2px solid #000;
+    border-radius: 50%;
+    
+    background-color: #f0f0f0;
+    
+    font-size: 20px;
+    color: #000;
+    
+    cursor: pointer;
+    
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  .info:hover {
+    background-color: #e0e0e0;
+    border-color: #333;
+  }
+  
+  

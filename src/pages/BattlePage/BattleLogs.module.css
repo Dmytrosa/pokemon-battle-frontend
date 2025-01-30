@@ -1,0 +1,17 @@
+.logContainer {
+    max-width: 600px;
+    margin: 0 auto 16px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 12px;
+    height: 200px;
+    overflow-y: auto;
+  }
+  
+  .logLine {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  

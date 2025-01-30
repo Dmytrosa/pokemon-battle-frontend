@@ -1,0 +1,58 @@
+.controlsContainer {
+    text-align: center;
+    margin-top: 16px;
+  }
+  .turnInfo {
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .attackBtn {
+    margin: 0 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f0a500;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .abilityBtn {
+    margin: 0 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #7dce94;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .disabledBtn {
+    margin: 0 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ccc;
+    border: none;
+    border-radius: 8px;
+    cursor: default;
+  }
+  .leaveBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #c0392b;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .backBtn {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #2f3640;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .finishedContainer {
+    text-align: center;
+  }
+  

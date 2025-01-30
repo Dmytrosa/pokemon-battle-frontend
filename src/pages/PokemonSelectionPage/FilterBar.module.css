@@ -1,0 +1,37 @@
+.filterContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+  .input, .select {
+    padding: 8px;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  .resetBtn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #999;
+    color: #fff;
+    cursor: pointer;
+  }
+  .startBtn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #5e5efd;
+    cursor: pointer;
+  }
+  .startBtnDisabled {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #ccc;
+    cursor: default;
+  }
+  

@@ -1,0 +1,189 @@
+/* ===========================
+   BASE VALUES :root
+=========================== */
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* Dark/Light theme depending on OS */
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ===========================
+   <a> TAG
+=========================== */
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+/* ===========================
+   <body> TAG
+=========================== */
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* ===========================
+   CONTAINER for main content
+=========================== */
+.container {
+  /* Limit width on larger screens,
+     center for desktops */
+  max-width: 1200px;
+  margin: 0 auto;
+  /* Add basic padding */
+  padding: 1rem;
+}
+
+/* ===========================
+   HEADINGS
+=========================== */
+h1,
+h2,
+h3 {
+  margin: 0.5em 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 1.3;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
+
+/* ===========================
+   BUTTONS
+=========================== */
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  color: #fff;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* ===========================
+   LIGHT THEME (prefers-color-scheme: light)
+=========================== */
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  button {
+    background-color: #f9f9f9;
+    color: #000;
+  }
+}
+
+/* ===========================
+   RESPONSIVE MEDIA QUERIES
+=========================== */
+
+/* Mobile devices (up to ~600px) */
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 0.5rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  button {
+    padding: 0.5em 1em;
+    font-size: 0.95em;
+  }
+}
+
+/* Medium screens (tablets) from ~600px to ~1024px */
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  .container {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 1.9rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    /* Add a bit more "breathing room" at the top/bottom */
+    padding: 2rem;
+  }
+
+  h1 { 
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+}
