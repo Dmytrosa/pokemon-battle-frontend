@@ -1,12 +1,11 @@
 // src/pages/BattlePage/BattleControls.jsx
+import { useContext } from 'react';
 import { BattleContext } from '../../context/BattleContext';
 import styles from './BattleControls.module.css';
 
 export default function BattleControls({ onLeave }) {
   const { battle, doPlayerAttack, doPlayerAbility, doSurrender } = useContext(BattleContext);
   if (!battle) return null;
-
-debugger
 
   const isBattleFinished = battle.status === 'finished';
   const isPlayerTurn = battle.status === 'player_turn';

@@ -11,7 +11,6 @@ export default function BattleArena() {
   if (!battle) return null;
 
   const { playerPokemon, enemyPokemon, playerCurrentHP, enemyCurrentHP } = battle;
-  debugger
   
   return (
     <div className={styles.arena}>
